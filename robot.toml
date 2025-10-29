@@ -1,0 +1,15 @@
+output-dir = "output"
+
+[variables]
+URL = "https://todomvc.com/examples/react/dist/"
+BROWSER = "chromium"
+HEADLESS = "Yes"
+
+[profiles.dev.variables]
+URL = "https://todomvc.com/examples/react/dist/"
+BROWSER = "firefox"
+HEADLESS = "No"
+
+[profiles.dev.extend-variables]
+BROWSER = "firefox"
+HEADLESS = "No"
